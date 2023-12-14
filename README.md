@@ -13,7 +13,7 @@ Develop an AI assistant leveraging OpenAI's APIs, integrating text-to-speech (TT
 
 1. **Document Intake & Processing**
     - **Document Upload:** Allow users to upload various document types.
-    - **Content Analysis:** Utilize OpenAI's document analysis API for comprehension and goal identification.
+    - **Content Analysis:** Utilize GPT-4 for comprehension and goal identification.
 
 2. **Goal Formation**
     - **Objective Derivation:** Use the content analysis to generate a structured list of learning objectives or goals.
