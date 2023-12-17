@@ -1,7 +1,11 @@
 # ProfessorGPT
-An AI-driven Employee Training Assistant leveraging OpenAI's APIs for interactive tutoring, comprehension assessment and continuous improvement/quality control. 
+An AI-driven Assistant leveraging OpenAI's APIs for interactive tutoring, comprehension assessment and continuous improvement of any topic!
 
 ## Project Overview
+<p align="center">
+  <img src="./backend/app/document_processing/prof.png" alt="prof" width="800px" height="800px">
+</p>
+
 
 ### Objective
 Develop an AI assistant leveraging OpenAI's APIs, integrating text-to-speech (TTS), speech-to-text (STT), and other tools to streamline employee training, tutor users interactively, and assess their understanding.
