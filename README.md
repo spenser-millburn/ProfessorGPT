@@ -34,6 +34,9 @@ Develop an AI assistant leveraging OpenAI's APIs, integrating text-to-speech (TT
 - **Text-to-Speech:** Employ TTS APIs to convert textual content into speech for interactive tutoring.
 - **Speech-to-Text:** STT APIs for transcribing user's oral responses into text for assessment.
 
+## [Poof of Concept Notebook (POC)](https://github.com/spenser-millburn/ProfessorGPT/blob/main/backend/app/document_processing/main.ipynb)
+
+
 ## User Stories
 
 | User Story ID | User Story Description                                                                                   | Features                                             |
@@ -95,68 +98,5 @@ project_root/
 │
 └── README.md                          # Project documentation
 ```
-### tutoring_logic.py      # Backend logic for managing tutoring sessions
-```
-class TutoringLogic:
-    def __init__(self, tts_service, stt_service, evaluation_service):
-        self.tts_service = tts_service
-        self.stt_service = stt_service
-        self.evaluation_service = evaluation_service
-
-    def initiate_tutoring_session(self, document_content):
-        # Logic to initiate a tutoring session with document content
-        pass
-
-    def explain_document_content(self):
-        # Logic to explain the document content verbally
-        pass
-
-    def prompt_discussions(self):
-        # Logic to prompt discussions or questions during the session
-        pass
-
-    def summarize_sections(self):
-        # Logic to summarize complex sections using speech
-        pass
-
-    def transcribe_user_responses(self, user_audio):
-        # Logic to transcribe user audio responses to text
-        pass
-
-    def assess_user_understanding(self, user_responses):
-        # Logic to assess user understanding against learning objectives
-        pass
-
-    def provide_feedback(self, user_understanding):
-        # Logic to provide feedback on user understanding
-        pass
-
-```
-
-### GoalDerivation 
-
-```
-from typing import List
-
-class GoalDerivation:
-    def __init__(self):
-        # Initialize necessary components or services here
-        pass
-
-    def derive_learning_objectives(self, analysis_results: dict) -> List[str]:
-        # Logic to extract learning objectives from document analysis data
-        # Replace this with the actual algorithm or logic based on your requirements
-        
-        # For instance, let's say the analysis results have a 'key_phrases' field
-        # We extract key phrases to form learning objectives
-        if 'key_phrases' in analysis_results:
-            learning_objectives = analysis_results['key_phrases']
-            return learning_objectives
-        
-        # Return default objectives if no key phrases are found
-        return ["Objectives not found"]
-```
-
-
 
 
