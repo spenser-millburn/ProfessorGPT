@@ -2,27 +2,27 @@ version: "3.8"
 services:
   text_generation:
     build:
-      context: ./openai_wrapper/text_generation  
+      context: ./app/ai_wrapper/text_generation  
       dockerfile: Dockerfile
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
     ports:
-      - 7999:8000
+      - 8001:8000
 
   speech_to_text:
     build:
-      context: ./openai_wrapper/speech_to_text 
+      context: ./app/ai_wrapper/speech_to_text 
       dockerfile: Dockerfile
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
     ports:
-      - 8001:8001
+      - 8002:8000
 
   text_to_speech:
     build:
-      context: ./openai_wrapper/text_to_speech  
+      context: ./app/ai_wrapper/text_to_speech  
       dockerfile: Dockerfile
     environment:
       - OPENAI_API_KEY=${OPENAI_API_KEY}
     ports:
-      - 8002:8002
+      - 8003:8000
