@@ -1,0 +1,6 @@
+# Ignore Python byte-compiled files
+__pycache__/
+
+# Ignore all files within the __pycache__ directories
+**/__pycache__/*
+
