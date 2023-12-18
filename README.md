@@ -57,7 +57,7 @@ Develop an AI assistant leveraging OpenAI's APIs, integrating text-to-speech (TT
 | 14            | As a user, I expect support documentation or assistance if I encounter issues during the interaction with the assistant.| Support and assistance                                 |
 
 
-## Project Structure
+## Proposed Project Structure
 ```
 project_root/
 │
